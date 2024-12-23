@@ -9,3 +9,5 @@
     --Dictionaries
     --Sets
 2-Functions in Python
+      {lamda function}
+    --args with function
