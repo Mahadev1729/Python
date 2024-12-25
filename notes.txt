@@ -1,4 +1,4 @@
-1-Basic Python
+# 1-Basic Python
   --Simple syntax and semantics
     -- operators
     -- simple operations
@@ -9,5 +9,14 @@
     --Dictionaries
     --Sets
 2-Functions in Python
+    -Aanonymos function
       {lamda function}
+      {map function}
+      {filter function}
     --args with function
+3- importing modules and packages
+     -- installation -- pip install {package_name}
+     -- sub packages 
+4--Advanced Python 
+    -- iterators
+    
