@@ -19,4 +19,12 @@
      -- sub packages 
 4--Advanced Python 
     -- iterators
+
+
+
+5-- Libraries
+    --- NumPy
+       --- Ones function
+       --- sqrt function
+       --- exp function
     
