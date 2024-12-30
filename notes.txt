@@ -27,4 +27,6 @@
        --- Normalization
        --- nDarray{n dim array}
     --- Pandas 
-        
+       --- DataFrame
+       --- Pandas Series
+       
