@@ -21,6 +21,7 @@
     -- iterators
 5-- Libraries
     --- NumPy
+       --- Zeroes
        --- Ones function
        --- sqrt function
        --- exp function
@@ -29,4 +30,7 @@
     --- Pandas 
        --- DataFrame
        --- Pandas Series
+       --- renaming
+       --- merging and joining
+
        
