@@ -32,5 +32,8 @@
        --- Pandas Series
        --- renaming
        --- merging and joining
+       --- read data from various source
+    --- matplotlib{for data visualization}
+       --- installation
 
        
