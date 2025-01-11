@@ -1,3 +1,4 @@
+conda cmd:conda create -p venv python==version
 # 1-Basic Python
   --Simple syntax and semantics
     -- operators
