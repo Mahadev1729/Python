@@ -36,5 +36,18 @@ conda cmd:conda create -p venv python==version
        --- read data from various source
     --- matplotlib{for data visualization}
        --- installation
-
+       --- plotting the graph
+       --- bar plot
+       --- pie chart
+       --- Histograms plot
+       --- scatter plot
+    --- seaborn{for more complex data visualization}   
+       --- installation- pip install seaborn
+       --- barplot
+       --- lineplot
+       --- Histogram
+       --- heatmap
+           --- correaltion
+       --- voilen plot
+       
        
