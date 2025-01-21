@@ -49,5 +49,7 @@ conda cmd:conda create -p venv python==version
        --- heatmap
            --- correaltion
        --- voilen plot
-       
+    --- Logging in Python
+         
+
        
