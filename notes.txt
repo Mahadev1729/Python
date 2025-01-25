@@ -54,5 +54,10 @@ conda cmd:conda create -p venv python==version
      ---What is process
      ---what is program       
   # Web scrapping
-     
-       
+ 11-Memory Managment
+   ---Key Concepts:
+     ---Memory allocation and deallocation
+     ---Reference Counting
+     ---Garbage Collection
+     ---The gc modules
+     -      
