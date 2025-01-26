@@ -15,6 +15,9 @@ def welcome():
 def welcome_index():
     return "Welcome to index page.This should be amazon course"
 
+@app.route('/login')
+def welocome_login():
+    return "Welcome to login Page"
 
 if __name__=="__main__":## entry piont
     app.run(debug=True)
