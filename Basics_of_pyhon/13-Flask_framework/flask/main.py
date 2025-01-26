@@ -1,4 +1,4 @@
-from flask import Flask 
+from flask import Flask,render_template
 
 
 '''
@@ -9,11 +9,11 @@ app=Flask(__name__)
 
 @app.route('/') ## home page route
 def welcome():
-    return "<html><h1>HI I'm Mahadev</h1></html>"
+    return render_template("home.html")
 
 @app.route("/index")
 def welcome_index():
-    return "Welcome to index page.This should be amazon course"
+    return render_template("index.html")
 
 @app.route('/login')
 def welocome_login():
