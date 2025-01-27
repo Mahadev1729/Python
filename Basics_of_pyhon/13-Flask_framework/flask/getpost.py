@@ -1,4 +1,4 @@
-from flask import Flask,render_template
+from flask import Flask,render_template,request
 
 app=Flask(__name__) 
 
@@ -22,7 +22,12 @@ def about():
 def welocome_login():
     return "Welcome to login Page"
 
-
+@app.route('/form',methods=['GET','POST'])
+def form():
+    if request.method=='POST':
+        name=request.form['name']
+        return f'Hello {name}'
+    return render_template('form.html')
 
 if __name__=="__main__":## entry piont
     app.run(debug=True)
