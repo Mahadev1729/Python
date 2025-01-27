@@ -10,7 +10,7 @@ def welcome_start():
 def welcome():
     return render_template("home.html")
 
-@app.route("/index")
+@app.route("/index",methods=['GET'])
 def welcome_index():
     return render_template("index.html")
 
@@ -21,6 +21,8 @@ def about():
 @app.route('/login')
 def welocome_login():
     return "Welcome to login Page"
+
+
 
 if __name__=="__main__":## entry piont
     app.run(debug=True)
