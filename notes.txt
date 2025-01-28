@@ -62,4 +62,5 @@ conda cmd:conda create -p venv python==version
      ---The gc modules
   13-Flask Framework 
      --- intilization 
-     --- routing            
+     --- routing 
+     --- Rendering html files           
