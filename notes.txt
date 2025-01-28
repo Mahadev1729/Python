@@ -64,3 +64,4 @@ conda cmd:conda create -p venv python==version
      --- intilization 
      --- routing 
      --- Rendering html files           
+     --- using method
