@@ -43,7 +43,15 @@ def submit():
 
 @app.route('/success/<int:score>')
 def success(score):
-    return "The marks you got is,"+score
+    res=""
+    if score>=50:
+        res="PASS"
+    else:
+        res="FAIL"    
+    
+    return render_template('result.html',results=res)
+
+#building url dynma
    
 
 if __name__=="__main__":## entry piont
