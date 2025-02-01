@@ -1,3 +1,7 @@
+## building url dynamically
+## variable rule
+## jinga 2 engine
+
 from flask import Flask,render_template,request
 
 app=Flask(__name__) 
