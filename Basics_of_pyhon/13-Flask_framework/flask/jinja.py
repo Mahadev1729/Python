@@ -10,7 +10,7 @@ app=Flask(__name__)
 def welcome_start():
     return render_template("start.html")
 
-@app.route('/home') ## home page route
+@app.route('/') ## home page route
 def welcome():
     return render_template("home.html")
 
@@ -26,12 +26,12 @@ def about():
 def welocome_login():
     return "Welcome to login Page"
 
-@app.route('/form',methods=['GET','POST'])
-def form():
-    if request.method=='POST':
-        name=request.form['name']
-        return f'Hello {name}'
-    return render_template('form.html')
+# @app.route('/form',methods=['GET','POST'])
+# def form():
+#     if request.method=='POST':
+#         name=request.form['name']
+#         return f'Hello {name}'
+#     return render_template('form.html')
 
 @app.route('/submit',methods=['GET','POST'])
 def submit():
@@ -39,6 +39,12 @@ def submit():
         name=request.form['name']
         return f'Hello {name}'
     return render_template('form.html')
+## variable role
+
+@app.route('/success/<int:score>')
+def success(score):
+    return "The marks you got is,"+score
+   
 
 if __name__=="__main__":## entry piont
     app.run(debug=True)
