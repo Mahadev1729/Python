@@ -58,7 +58,7 @@ def success(score):
         
     exp={'score':score,"res":res}        
     
-    return render_template('result.html',results=res)## act like data source
+    return render_template('result1.html',results=exp)## act like data source
 
 #building url dynma
    
