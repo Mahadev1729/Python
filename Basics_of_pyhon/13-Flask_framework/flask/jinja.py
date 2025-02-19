@@ -2,6 +2,12 @@
 ## variable rule
 ## jinga 2 engine
 
+##  Jinga2 Template Engine
+'''
+{{}} expressins to print ouput in html
+
+'''
+
 from flask import Flask,render_template,request
 
 app=Flask(__name__) 
@@ -45,11 +51,11 @@ def submit():
 def success(score):
     res=""
     if score>=50:
-        res="PASS"
+        res="PASSED"
     else:
-        res="FAIL"    
+        res="FAILED"    
     
-    return render_template('result.html',results=res)
+    return render_template('result.html',results=res)## act like data source
 
 #building url dynma
    
