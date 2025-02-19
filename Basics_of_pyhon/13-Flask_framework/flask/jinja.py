@@ -5,7 +5,8 @@
 ##  Jinga2 Template Engine
 '''
 {{}} expressins to print ouput in html
-
+{%....%}  condition,for loop
+{#....#}  this is for comments
 '''
 
 from flask import Flask,render_template,request
@@ -53,7 +54,9 @@ def success(score):
     if score>=50:
         res="PASSED"
     else:
-        res="FAILED"    
+        res="FAILED"
+        
+    exp={'score':score,"res":res}        
     
     return render_template('result.html',results=res)## act like data source
 
