@@ -50,15 +50,9 @@ def submit():
 
 @app.route('/success/<int:score>')
 def success(score):
-    res=""
-    if score>=50:
-        res="PASSED"
-    else:
-        res="FAILED"
-        
-    exp={'score':score,"res":res}        
+           
     
-    return render_template('result1.html',results=exp)## act like data source
+    return render_template('result.html',results=score)## act like data source
 
 #building url dynma
    
