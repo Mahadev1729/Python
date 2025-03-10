@@ -67,3 +67,8 @@ conda cmd:conda create -p venv python==version
      --- using method
         --- GET and POST
      ---
+  14-streamlit
+
+     python frontend Framework
+     used for MLOps project
+     
