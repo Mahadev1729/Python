@@ -72,3 +72,6 @@ conda cmd:conda create -p venv python==version
      python frontend Framework
      used for MLOps project
      
+  15-EDA{exploatry data analysis}  
+     - 
+     
